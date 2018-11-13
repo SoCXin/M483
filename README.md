@@ -4,6 +4,7 @@ AltiumDesigner(AD)开发资源库
 
 [![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
 
+#### 更多EDA ：[EDALib](https://github.com/mcuyun/EDALib) 
 #### 更多关于：[mcuyun](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
 
 ---
@@ -16,9 +17,11 @@ AltiumDesigner(AD)开发资源库
 
 ## 组成
 
-#### IntLib
-
 #### PCBLib
+
+#### SchLib
+
+#### IntLib
 
 #### sheet
 
