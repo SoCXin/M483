@@ -1,13 +1,13 @@
 ﻿# [Altium Designer](https://github.com/sochub/Altium) 
 
-[![sites](http://182.61.61.133/link/resources/docs.png)](https://stop.stops.top) 
+[![sites](http:/182.61.61.133/link/resources/SoC.png)](https://stop.stops.top) 
 
-#### 父级：[EDA](https://github.com/sochub/EDA)
+#### 归属：[EDA](https://github.com/sochub/EDA)
 ### [AD 简介](https://github.com/sochub/Altium/wiki)
 
 [Altium Designer](https://github.com/sochub/Altium) 是原Protel软件开发商Altium公司推出的一体化的电子产品开发系统，主要运行在Windows操作系统。这套软件通过把原理图设计、电路仿真、PCB绘制编辑、拓扑逻辑自动布线、信号完整性分析和设计输出等技术的完美融合，为设计者提供了全新的设计解决方案。
 
-### 相关快捷操作
+#### 快捷操作
 
 * 绘制边框
 
