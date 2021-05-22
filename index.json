@@ -1,0 +1,83 @@
+{
+    "name":"M483",
+    "type":"MCU",
+    "Freq":"192MHz",
+    "vendor":"nuvoton",
+    "Core":"Cortex-M4",
+    "description":"nuvoton Cortex-M4 MCU",
+    "homepage":"http://www.SoC.xin/M483",
+    "keywords": [
+        "motor",
+        "nuvoton",
+        "Cortex-M4",
+        "32-bit"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/M483.git"
+    },
+    "version":"1.0.0",
+    "series":["M483KIDAE","M483F6TB"],
+    "package":["LQFP128","LQFP64"],
+    "M483KIDAE": {
+        "package":"LQFP128",
+        "RAM":160,
+        "ROM":512,
+        "peripheral": ["ADC","IIC","UART","SPI","LDO","PWM"]
+    },
+    "M483F6TB": {
+        "package":"LQFP32",
+        "SRAM":4,
+        "Flash":32
+    },
+    "USART0": {
+        "LIN": 1,
+        "more":["BUAD","LIN","IrDA"]
+    },
+    "USART1": {
+        "LIN": 1,
+        "more":["BUAD","LIN","IrDA"]
+    },
+    "USART2": {
+        "LIN": 1,
+        "more":["BUAD","LIN","IrDA"]
+    },
+    "ADC": {
+        "num": 1,
+        "channel": 8,
+        "resolution": 12,
+        "rate": 2400
+    },
+    "IIC": {
+        "num": 1,
+        "channel": 8,
+        "resolution": 12,
+        "rate": 2400
+    },
+    "DMA": {
+        "num": 2,
+        "rate": 2400
+    },
+    "CMP": {
+        "num": 2,
+        "rate": 2400
+    },
+    "OPA": {
+        "num": 2,
+        "rate": 2400
+    },
+    "TIM": {
+        "resolution":[16,16,16],
+        "rate": 1024
+    },
+    "PWR": {
+        "VDD": [2700,5500],
+        "Ivdd": 3.5,
+        "rate": 1024
+    },
+    "PWM": {
+        "num": 2,
+        "resolution": 8,
+        "rate": 256
+    }
+}

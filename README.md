@@ -1,14 +1,35 @@
-﻿# [MinGW](https://github.com/SoCXin/MinGW)
+﻿# [M483](https://github.com/SoCXin/M483)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-[MinGW](http://www.mingw.org/) 是Minimalist GNUfor Windows的缩写。它是一个可自由使用和自由发布的Windows特定头文件和使用GNU工具集导入库的集合，允许你在GNU/Linux和Windows平台生成本地的Windows程序而不需要第三方C运行时（C Runtime）库。MinGW 是一组包含文件和端口库，其功能是允许控制台模式的程序使用微软的标准C运行时（C Runtime）库（MSVCRT.DLL）,该库在所有的 NT OS 上有效，在所有的 Windows 95发行版以上的 Windows OS 有效，使用基本运行时，你可以使用 GCC 写控制台模式的符合美国标准化组织（ANSI）程序，可以使用微软提供的 C 运行时（C Runtime）扩展，与基本运行时相结合，就可以有充分的权利既使用 CRT（C Runtime）又使用 WindowsAPI功能。
+* [nuvoton](http://www.nuvoton.com.cn/)：[Cortex-M4](https://github.com/SoCXin/Cortex)
+* [Level](https://github.com/SoCXin/Level)：192 MHz  * 1.25 DMIPS/MHz
 
-* mingw-get install gcc
-* mingw-get install g++
-* mingw-get install gdb
+## [简介](https://github.com/SoCXin/M483/wiki)
 
-https://sourceforge.net/projects/mingw/files/MinGW/Extension/gdb/gdb-7.6.1-1/gdb-7.6.1-1-mingw32-bin.tar.lzma/download
+[M483](https://github.com/SoCXin/M483) 支持 1.8V 到 3.6V 操作电压，以及 - 40 ℃ 到105 ℃ 的工业级工作温度。本系列提供2个CAN 2.0B介面、2个USB 2.0介面与多达9个 UART 介面。封装型式包含LQFP64与LQFP128。
 
-https://sourceforge.net/projects/mingw/files/MinGW/Extension/make/make-3.82.90-cvs/make-3.82.90-2-mingw32-cvs-20120902-bin.tar.lzma/download
-###  [SoC芯平台](http://www.SoC.Xin)
+
+[![sites](docs/M483.png)](http://www.nuvoton.com.tw/products/microcontrollers/arm-cortex-m4-mcus/m483-can-series/)
+### 关键特性
+
+* 2 x CAN 2.0B
+* 2 x USB OTG (PHY)
+* 2 x SDIO (50MHz)
+* 16 x 12bit ADC (SAR 5MSPS)
+* 2 x 12bit DAC (1MSPS)
+* 3 OPA
+* 6个低功耗 UART ( 17 Mbps ) ，包含2个LIN介面
+
+### [资源收录](https://github.com/SoCXin/M483)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[M483](https://github.com/SoCXin/M483)
+
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
